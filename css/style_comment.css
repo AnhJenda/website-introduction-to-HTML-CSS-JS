@@ -87,3 +87,6 @@ legend {
 #name, #email {
     width: 50%;
 }
+textarea{
+    font-size: 120%;
+}    
