@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="../css/style_js.css">
+</head>
+<body>
+    <div class="jwrapper">
+        <div class="jheader">
+            <header>
+                <img src="../images/logo.png" alt="logo">
+                <ul>
+                    <li><a href="../index.html" id="index">Trang chủ</a></li>
+                    <li><a href="abouthtml.html" target="_self">HTML</a></li>
+                    <li><a href="css.html" target="_self">CSS</a></li>
+                    <li><a href="js.html" target="_self" id="aboutjs">JavaScript</a></li>
+                    <li><a href="comment.html" target="_self">Đóng góp ý kiến</a></li>
+                </ul>
+            </header>
+        </div>
+        <div class="jcontent">
+            <h1>Một số kiến thức cơ bản về JavaScript</h1>
+            <div class="jcontent1">
+                <h2>1. Ưu điểm của JavaScript</h2>
+                <ul>
+                    <li>Tiết kiệm lưu lượng tải ở Server: Khi sử dụng JavaScript ta có thể nhận dữ liệu đầu vào (input)
+                        từ người dùng và xác nhận chúng trước khi gửi lên Server, điều này nghĩa là Server của bạn sẽ
+                        tải ít hơn và tiết kiệm lưu lượng hơn.
+                    </li>
+                    <li>Giảm thời gian phản hồi lại người dùng: Người dùng sẽ không phải chờ dữ liệu gửi lên Server và
+                        kiểm tra rồi phản hồi lại. Đặc biệt là trong trường hợp người dùng nhập thiếu hay nhập sai thông
+                        tin.
+                    </li>
+                    <li>Tăng sự tương tác với người dùng: Ta có thể tạo những giao diện để phản hồi lại các thao tác của người dùng
+                        như di chuyển con trỏ qua hoặc kích hoạt bằng bàn phím,...
+                    </li>
+                    <li>Giao diện phong phú, sống động hơn: Ta có thể sử dụng JavaScript để tạo các thành phần Drag and Drop 
+                        ( kéo và thả) hay các slider ( con trượt) để tạo một giao diện giàu tính năng tới người dùng.</li>
+                </ul>
+                <h2>2. Nhược điểm của JavaScript</h2>
+                <ul>
+                    <li>Dễ bị khai thác bởi vì bảo mật của ngôn ngữ này không được đánh giá cao.</li>
+                    <li>Dễ bị sử dụng để thực thi mã độc trên thiết bị của người dùng.</li>
+                    <li>Không phải trình duyệt nào và lúc nào cũng hỗ trợ JavaScript.</li>
+                </ul>
+            </div>
+            <div class="jcontent2">
+                <h2>3. Các cách sử dụng JavaScript trong thiết kế website HTML</h2>
+                <p>Giống như CSS, ta cũng có ba cách để sử dụng JavaScript trong chương trình HTML đó là : Inline, Internal và External.</p>
+                <p>Với kiểu Inline, bạn có thể viết trực tiếp mã code JS vào một phần tử HTML.</p>
+                <img src="../images/js_1.png" alt="Kiểu inline">
+                <p>Với kiểu Internal, bạn có thể viết mã code JS nằm bên trong cặp thẻ &lt;script&gt;&lt;/script&gt; và đặt chúng ở trong thẻ &lt;head&gt; hoặc
+                    &lt;body&gt; của file HTML đều được.</p>
+                <img src="../images/js_2.png" alt="Kiểu internal">
+                <p>Với kiểu External, tương tự như CSS, bạn có thể tạo một file có đuôi .js và viết mã code vào trong đó rồi nhúng vào trong thẻ &lt;head&gt; của file HTML.
+                    Giả sử ta đã tạo một file JS có tên alertmsg.js, khi đó ta có thể nhúng nó vào file HTML như sau:</p>
+                <img src="../images/js_3.png" alt="Kiểu external">
+            </div>
+            <div class="jcontent3">
+                <h2>4. Bảng điều khiển-Console</h2>
+                <p>Trong JavaScript, từ khoá "console" đề cập đến một đối tượng, một tập hợp dữ liệu và hành động mà chúng ta có thể sử dụng trong mã code của mình.
+                    Và bảng điều khiển "console" là một bảng hiển thị những thông báo quan trọng hay lỗi,... cho chúng ta có thể thấy rõ ràng hơn.</p>
+                <p>console.log(): method ".log" là một trong những method của hàm console. Tất cả những gì ta viết trong cặp ngoặc tròn () sẽ được hiển thị trên bảng điều khiển,
+                    nó có thể là một số, một giá trị của một biến, một mảng hay một object,...</p>
+                <img src="../images/js_4.png" alt="console.log()">
+                <p>Hình ảnh trên là cách sử dụng console.log(). Khi ta mở bảng console, số 5 sẽ được in trên đó.</p>
+            </div>
+            <div class="jcontent4">
+                <h2>5. Kiểu dữ liệu </h2>
+                <p>Trong JS, có 7 kiểu dữ liệu cơ bản:</p>
+                <ul>
+                    <li>Number: Kiểu số, bất kì số nào kể cả số thập phân.</li>
+                    <li>String: Chuỗi các kí tự nhập vào từ bàn phím bao gồm cả các kí tự đặc biệt và viết trong dấu ' ' hoặc dấu " ".</li>
+                    <li>Boolean: Kiểu dữ liệu này chỉ có 2 giá trị là <em>true</em> hoặc <em>false</em>. Sẽ thuận tiện hơn khi sử dụng Boolean
+                        như một công tắc bật-tắt hay cho những câu hỏi chỉ có lựa chọn "có" hoặc "không" .</li>
+                    <li>Null: Kiểu dữ liệu này thể hiện sự vắng mặt có chủ đích của một giá trị và được đại diện bởi từ khoá <em>null</em> (không cần dấu ngoặc kép).</li>
+                    <li>Undefined: Kiểu dử liệu này được kí hiệu bằng từ khoá <em>undefined</em>(không cần dấu ngoặc kép).
+                        Nó cũng đại diện cho sự vắng mặt của một giá trị mặc dù cách dùng khác với <em>null</em>.</li>
+                    <li>Symbol: Là một kiểu dữ liệu nguyên thuỷ, và cũng là một kiểu dữ liệu rất đặc biệt. Khi ta tạo một <em>symbol</em>trong JS,
+                        giá trị của nó được giữ kín và chỉ được sử dụng nội bộ.</li>
+                    <li>Object: Là một kiểu dữ liệu phức hợp. Object được sử dụng nhiều nhất vì tính linh hoạt cực kì mạnh mẽ của nó trong việc xử lý dữ liệu.</li>
+                </ul>
+            </div>
+            <div class="jcontent5">
+                <h2>6. Các toán tử số học trong JavaScript</h2>
+                <p>JS có một số toán tử được tích hợp sẵn, cho phép ta thực hiện với những con số. Cụ thể:</p>
+                <ul>
+                    <li>Phép trừ:  -</li>
+                    <li>Phép cộng: +</li>
+                    <li>Phép nhân: *</li>
+                    <li>Phép chia: /</li>
+                    <li>Lấy số dư: %</li>
+                </ul>
+                <p>Đặc biệt, Toán tử (+) còn được sử dụng trong việc nối các chuỗi kí tự. Các bạn có thể tìm hiểu thêm qua các khoá học
+                JavaScript trên <a href="https://www.codecademy.com">codecademy</a> và <a href="https://fullstack.edu.vn/">F8 fullstack</a>.</p>
+            </div>
+            <div class="jcontent6">
+                <h2>7. Tổng kết</h2>
+                <p>JavaScript không phải là một ngôn ngữ lập trình dộc lập, nó được tích hợp và nhúng vào file HTML để tạo nên sự
+                sống động cho website HTML. Mặc dù có những khuyết điểm, nhưng nhìn chung JavaScipt vẫn là một ngôn ngữ được ưu tiên và sử dụng nhiều
+                trong thiết kế website.<br> JavaScript cũng có cách sử dụng giống CSS là <strong>inline</strong>, <strong>internal</strong> và <strong>external</strong>.<br>
+                JavaScript cũng có các biến được khai báo bởi các từ khoá <strong>var, let, const</strong>, cũng như các phép toán cơ bản nhằm thực hiện những
+                tác vụ nhất định. Bên trên mình đã đề cập tới 2 trang web học JavaScript tốt, chúc các bạn thành công!</p>
+            </div>
+        </div>
+        <div class="jfooter">
+            <footer>
+                <h3>Thông tin liên hệ:</h3>
+                <ul>
+                    <li>Điện thoại: 0395100761</li>
+                    <li><a href="https://www.facebook.com/">Facebook: Đinh Quang Anh</a></li>
+                    <li>Zalo: 0395100761</li>
+                </ul>
+                <p>&copy; 2021 Dinh Quang Anh</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/background.jpg");
+}
+.cwrapper {
+    width: 1250px;
+    margin: 5px auto 5px auto;
+    border: 2px solid white;
+    background-color: beige;
+    line-height: 120%;
+}
+.cheader {
+    padding: 10px;
+    border: 1px solid white;
+    height: 100px;
+    display: block;
+}
+.cheader img {
+    width: 200px;
+    height: 100px;
+    margin: auto 20px ;
+}
+.cheader ul {
+    margin-top: -80px;
+    padding: 5px 0 5px 30px;
+    text-align: right;
+}
+.cheader li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.cheader a {
+    text-decoration: none;
+    color: #db7093;
+    font-size: 25px;
+}
+a#aboutcss, .cheader a:hover {
+    color: forestgreen;
+}
+h1 {
+    text-align: center;
+}
+.ccontent1 h2, .ccontent2 h2, .ccontent3 h2, .ccontent4 h2 {
+    margin-left: 20px;
+}
+.ccontent1 ul li, .ccontent2 ul li {
+    margin-left: 50px;
+    list-style-type: square;
+}
+.content3 {
+    display: block;
+}
+.ccontent3 p, .ccontent4 p {
+    margin-left: 20px;
+}
+.ccontent3 img {
+    display: flex;
+    margin: 10px auto 10px auto;
+}
+.cfooter {
+    margin-left: 20px;
+    border-top: 2px solid white;
+}
+.cfooter a {
+    text-decoration: none;
+    color: olivedrab;
+}
+.cfooter a:hover {
+    color: #db7093;
+}

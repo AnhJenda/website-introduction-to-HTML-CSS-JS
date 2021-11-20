@@ -1,0 +1,89 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/background.jpg");
+}
+.cmwrapper {
+    width: 1250px;
+    margin: 5px auto 5px auto;
+    border: 2px solid white;
+    background-color: beige;
+    line-height: 120%;
+}
+.cmheader {
+    padding: 10px;
+    border: 1px solid white;
+    height: 100px;
+    display: block;
+}
+.cmheader img {
+    width: 200px;
+    height: 100px;
+    margin: auto 20px ;
+}
+.cmheader ul {
+    margin-top: -80px;
+    padding: 5px 0 5px 30px;
+    text-align: right;
+}
+.cmheader li {
+    display: inline-block;
+    margin-right: 40px;
+}
+.cmheader a {
+    text-decoration: none;
+    color: #db7093;
+    font-size: 25px;
+}
+a#aboutcm, .cmheader a:hover {
+    color: forestgreen;
+}
+.cmcontent {
+    display: flex;
+    justify-content: center;
+}
+input {
+    border-bottom: 1px dotted #dcdcdc;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 1000px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+input:focus {
+    border: 1px dotted #dcdcdc;
+    outline: none;
+}
+input#submit {
+    color: #ffffff;
+    background-color: #665544;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    text-transform: uppercase;
+}
+input#submit:hover {
+    color: #665544;
+    background-color: #efefef;
+}
+fieldset {
+    width: 1000px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: right;
+}
+legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+#name, #email {
+    width: 50%;
+}
