@@ -87,9 +87,15 @@ legend {
 #name, #email {
     width: 50%;
 }
+<<<<<<< HEAD
 textarea {
     font-size: 120%;
 }
+=======
+textarea{
+    font-size: 120%;
+} 
+>>>>>>> 28b5ded30b34817efc08100a434cfb56223005ad
 .cmfooter {
     margin-left: 10px;
 }
@@ -99,4 +105,8 @@ textarea {
 }
 .cmfooter a:hover {
     color: #db7093;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 28b5ded30b34817efc08100a434cfb56223005ad
