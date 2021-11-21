@@ -90,13 +90,13 @@ legend {
 textarea{
     font-size: 120%;
 } 
-.footer {
+.cmfooter {
     margin-left: 10px;
 }
-.footer a {
+.cmfooter a {
     text-decoration: none;
     color: olivedrab;
 }
-.footer a:hover {
+.cmfooter a:hover {
     color: #db7093;
 }
